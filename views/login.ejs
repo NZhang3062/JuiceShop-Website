@@ -1,0 +1,28 @@
+<%- include('layouts/header'); -%>
+  <%- include('layouts/nav'); -%>
+  <section>
+    <form name="myform" method="Post" action="">
+      <label>User Name</label>
+      <input id="aname" type="text" name="aname" autofocus><br/>
+
+      <label>Password</label>
+      <input id="pass" type="password" name="pass"><br/>
+
+      <br/><br/>
+
+      <input type="submit" value="Login">
+      <p id="errors">
+          <% 
+            if (typeof(error) !== 'undefined') {
+          %>
+                <%= error %>
+          <% 
+            }
+          %> 
+      </p>
+    </form>  
+</section>
+<footer id="footer">
+  &copy; Copyright - Nan Zhang 
+</footer>
+<%- include('layouts/footer'); -%>

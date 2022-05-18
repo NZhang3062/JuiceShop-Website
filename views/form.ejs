@@ -1,0 +1,41 @@
+<%- include('layouts/header'); -%>
+  <%- include('layouts/nav'); -%>
+  <section class="w50">
+    <form name="myform" method="Post" onsubmit="return formSubmit();"  action="" enctype="multipart/form-data">
+
+      <label>Name*: </label>
+      <input id="studentname" type="text" name="studentname"><br/>
+
+      <label>Student ID*: </label>
+      <input id="studentid" type="text" name="studentid"><br/>
+
+      <label>Mango Juices: </label>
+      <input id="mjuice" type="text" name="mjuice"><br/>
+
+      <label>Berry Juices: </label>
+      <input id="bjuice" type="text" name="bjuice"><br/>
+
+      <label>Apple Juices: </label>
+      <input id="ajuice" type="text" name="ajuice"><br/>
+
+      <br/><br/>
+
+      <input type="submit" value="Submit">
+      <% 
+        if (typeof(errors) != 'undefined')
+        {
+          for (let error of errors)
+          {
+      %>
+            <p class="errors"> <%= error.msg %></p>
+      <%
+          }
+        }
+      %>
+      <p id="errors"></p>
+    </form> 
+</section>
+<footer id="footer">
+  &copy; Copyright - Nan Zhang 
+</footer>
+<%- include('layouts/footer'); -%>

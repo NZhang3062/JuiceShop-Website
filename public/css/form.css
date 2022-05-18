@@ -1,0 +1,144 @@
+body{
+    background-color: #D1E2C4;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    width: 960px;
+    margin: 50px auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.w50{
+    width: auto;
+    margin: 1%;
+}
+.clear{
+    clear: both;
+}
+#errors{
+    color: #0B4141;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+
+}
+form, .formData{
+    width: 380px;
+    border: 3px solid #81B622;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    color: #81B622;
+    background-color: #ECF87F;
+    border-radius: 20px;
+}
+label{
+    width: 170px;
+    display: inline-block;
+    font-size: 18px;
+    color: #31352E;
+}
+select{
+    width: 190px;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 22px;
+    background-color: #59981A;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 4px 4px 0px #59981A;
+    border-radius: 8px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px #59981A;
+}
+
+.top_menu{
+    background-color: #3D550C;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    color: white;
+    border-radius: 20px;
+}
+
+.top_menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+.top_menu ul li{
+    display: inline-block;
+    width: 130px;
+}
+
+.top_menu ul li:hover{
+    background-color: #438945;
+}
+.top_menu ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+table {
+    border: 2px solid #81B622;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: #31352E;
+    background-color: #ECF87F;
+}
+
+.ordersuccess{
+    border: 2px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: #31352E;
+    background-color: #ECF87F;
+}
+.ordersuccess td, th{
+    border: 0px;
+    padding: 10px 6px;
+}
+
+td, th {
+    border: 2px solid #81B622;
+    padding: 10px 6px;
+}
+
+th {
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: #31352E;
+    font-weight: bold;
+}
+h3{
+    color: #31352E;
+    font-weight: bold;
+}
+h4{
+    color: #31352E;
+    font-weight: bold;
+    text-align: center;
+}
+footer{
+    clear: both; 
+    text-align: center; 
+    font-weight: bold; 
+    background-color: #3D550C; 
+    padding: 20px 0; 
+    font-size: 20px; 
+    color: white; 
+}

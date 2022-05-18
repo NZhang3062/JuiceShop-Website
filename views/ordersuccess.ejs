@@ -1,0 +1,47 @@
+<%- include('layouts/header'); -%>
+  <%- include('layouts/nav'); -%>
+  <section class="w50">
+    <div class="formData">
+    <% 
+      if(typeof(studentname) != 'undefined')
+      {
+    %>
+    <h3>Thank you for your order</h3>
+    <h4>Here are your order details:</h4>
+    <table class="ordersuccess">
+      
+      <tr>
+        <td> Name: <%= studentname %> </th>
+      </tr>
+      <tr>
+        <td> Student ID: <%= studentid %> </td>
+      </tr>
+      <tr>
+        <td> Total Mango Juices = <%= mjuice %> </td>
+      </tr>
+      <tr>
+        <td> Total Berry Juices = <%= bjuice %> </td>
+      </tr>
+      <tr>
+        <td> Total Apple Juices = <%= ajuice %> </td>
+      </tr>
+      <tr>
+        <td> Sub Total = $<%= subTotal.toFixed(2) %> </td>
+      </tr>
+      <tr>
+        <td> Tax = $<%= tax.toFixed(2) %> </td>
+      </tr>
+      <tr>
+        <td> Total cost = $<%= totalCost.toFixed(2) %> </td>
+      </tr>
+    </table>
+    <%
+      }
+    %>
+  </div>
+</section>
+<div class="clear"></div>
+<footer id="footer">
+  &copy; Copyright - Nan Zhang 
+</footer>
+<%- include('layouts/footer'); -%>
