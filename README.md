@@ -6,3 +6,5 @@ This is an website for a Juice Shop that will connect to a MongoDB database for 
 The website can create orders to receive the student customers' information to store in MongoDB.
 ### 2.2 Admin
 The Juice Shop owner can login as admin and view all the orders in a tabular format. The table should show all the information from the orders along with Sub Total, Tax and Total Cost. If the admin wants, admin should be able to Delete any order.
+## 3. Author
+Nan Zhang
